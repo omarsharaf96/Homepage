@@ -111,8 +111,7 @@
       "bullets": [
         "Built an automation tool that converts SQL Server DDLs to a new data storage solution.",
         "Developed a Neo4j API and frontend to visualize database hierarchy and improve data visibility.",
-        "Created a testing framework and established Snowflake deployment standards across the line of business.",
-        "Assumed temporary leadership of two teams during a transition to data lead positions."
+        "Created a testing framework and established Snowflake deployment standards across the line of business."
       ]
     },
     {
@@ -124,8 +123,7 @@
       "bullets": [
         "Designed and implemented multiple Python automation tools and frameworks.",
         "Delivered incrementally within SAFe agile teams.",
-        "Developed procedures to extract and transform base-table data for downstream applications.",
-        "Enforced database development standards and corrected deviations."
+        "Developed procedures to extract and transform base-table data for downstream applications."
       ]
     },
     {
