@@ -1,0 +1,92 @@
+{
+  "name": "Omar Sharaf",
+  "headline": "Director of Data Engineering · AI/ML & MLOps",
+  "location": "Hartford, CT",
+  "availability": "Open to remote roles (US)",
+  "email": "omarsharaf96@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
+  "summary": "Director of Data Engineering with 7+ years in data engineering and AI/ML at Fortune 100 companies. Leads four engineering teams (8 direct reports, 10 offshore engineers) that ship production Generative AI (RAG) and machine-learning systems, and doubled ML model deployments in one year through reusable MLOps architecture. AWS certified; completing an M.S. in Data Science.",
+  "skills": [
+    {"label": "Leadership", "items": ["Engineering Management", "Team Building & Mentorship", "Stakeholder Partnership", "SAFe Agile", "Offshore Team Management"]},
+    {"label": "AI/ML", "items": ["Generative AI", "RAG", "GPT", "MLOps", "Real-time & Batch Models"]},
+    {"label": "Cloud & Data", "items": ["AWS", "Databricks", "Snowflake", "Terraform", "Docker", "Neo4j", "MongoDB", "Teradata", "Hadoop"]},
+    {"label": "Languages & Tools", "items": ["Python", "SQL", "TypeScript", "JavaScript", "R", "CI/CD", "Tableau", "Angular"]}
+  ],
+  "experience": [
+    {
+      "title": "Director of Data Engineering — Pricing Model Support",
+      "company": "The Travelers Companies",
+      "location": "Hartford, CT (Hybrid)",
+      "start": "Feb 2026", "end": "Present",
+      "bullets": ["Lead data engineering in support of pricing models at a Fortune 100 insurer."]
+    },
+    {
+      "title": "Technical Engineering Manager — Gen AI / MLOps",
+      "company": "The Travelers Companies",
+      "location": "Hartford, CT (Hybrid)",
+      "start": "Aug 2024", "end": "Feb 2026",
+      "bullets": [
+        "Led four engineering teams (8 direct reports, 10 offshore engineers), aligning delivery with strategic objectives.",
+        "Doubled ML model deployments in one year through reusable architecture and deployment patterns.",
+        "Delivered 3 Generative AI projects into production and led 5+ proofs of concept across RAG and non-RAG use cases.",
+        "Championed CI/CD best practices, Python type hinting, and static typing to improve code quality and maintainability.",
+        "Upskilled a team member from no OOP experience to a top-performing contributor in six months."
+      ]
+    },
+    {
+      "title": "Cloud Data Engineer — Gen AI / MLOps",
+      "company": "The Travelers Companies",
+      "location": "Hartford, CT (Hybrid)",
+      "start": "Mar 2024", "end": "Aug 2024",
+      "bullets": [
+        "Led development and deployment of real-time and batch machine-learning models within the MLOps ecosystem.",
+        "Lead developer on the company's first RAG application, built on GPT-3.5.",
+        "Partnered with business stakeholders to define technical priorities and mentored junior engineers.",
+        "Streamlined onboarding so new permanent and temporary hires became productive quickly."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "The Travelers Companies",
+      "location": "Hybrid, United States",
+      "start": "Oct 2022", "end": "Mar 2024",
+      "bullets": [
+        "Built an automation tool that converts SQL Server DDLs to a new data storage solution.",
+        "Developed a Neo4j API and frontend to visualize database hierarchy and improve data visibility.",
+        "Created a testing framework and established Snowflake deployment standards across the line of business.",
+        "Assumed temporary leadership of two teams during a transition to data lead positions."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "The Cigna Group (CGI Inc consultant)",
+      "location": "Bloomfield, CT",
+      "start": "Jun 2021", "end": "Sep 2022",
+      "bullets": [
+        "Designed and implemented multiple Python automation tools and frameworks.",
+        "Delivered incrementally within SAFe agile teams.",
+        "Developed procedures to extract and transform base-table data for downstream applications.",
+        "Enforced database development standards and corrected deviations."
+      ]
+    },
+    {
+      "title": "Programmer Analyst",
+      "company": "The Cigna Group (CGI Inc consultant)",
+      "location": "Bloomfield, CT",
+      "start": "Jun 2018", "end": "Jun 2021",
+      "bullets": [
+        "Built Python REST APIs retrieving data from Hadoop, Teradata, and Oracle.",
+        "Developed Angular applications and reusable components in Docker containers.",
+        "Delivered business-critical reports via Hadoop ELT and Tableau.",
+        "Used and debugged CI/CD pipelines to deploy Angular apps and Python APIs."
+      ]
+    }
+  ],
+  "education": [
+    {"degree": "M.S., Data Science (in progress)", "school": "Central Connecticut State University", "start": "Jan 2022", "end": "Present"},
+    {"degree": "B.A., Economics", "school": "University of Connecticut", "start": "Aug 2014", "end": "Dec 2019"}
+  ],
+  "certifications": [
+    {"name": "AWS Certified Cloud Practitioner", "issuer": "Amazon Web Services", "date": "Apr 2021"}
+  ]
+}
