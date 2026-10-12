@@ -6,16 +6,17 @@
   "email": "omarsharaf96@gmail.com",
   "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
   "website": "https://omarsharaf.me",
-  "summary": "Director of Data Engineering with 7+ years in data engineering and AI/ML at Fortune 100 companies. Led four engineering teams that delivered six Gen AI applications in 18 months, including Travelers' first Gen AI application for external brokers, and doubled the number of ML models in production. Cuts production job runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; completing an M.S. in Data Science.",
+  "summary": "Director of Data Engineering and AI/ML leader with 7+ years at Fortune 100 insurance and healthcare companies. Builds and leads high-performing engineering teams that ship production Generative AI and machine-learning systems: delivered six Gen AI applications in 18 months and doubled the number of models in production. Cuts critical production runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; M.S. in Data Science in progress.",
   "skills": [
     {
       "label": "Leadership",
       "items": [
         "Engineering Management",
-        "Team Building & Mentorship",
-        "Stakeholder Partnership",
-        "SAFe Agile",
-        "Offshore Team Management"
+        "Hiring & Team Building",
+        "Mentorship & Coaching",
+        "Agile / SAFe",
+        "Product Ownership",
+        "Stakeholder Partnership"
       ]
     },
     {
@@ -23,9 +24,9 @@
       "items": [
         "Generative AI",
         "RAG",
-        "GPT",
+        "LLM Applications",
         "MLOps",
-        "Real-time & Batch Models"
+        "Real-time & Batch Model Deployment"
       ]
     },
     {
@@ -64,14 +65,13 @@
       "start": "Feb 2026",
       "end": "Present",
       "bullets": [
-        "Inherited a team with no testing, weak code hygiene, and no delivery standards; within two weeks established hardened CI/CD pipelines, code-quality gates, and production-release controls.",
-        "Manage a team of five; onboarded and upskilled four engineers, embedding AI-native workflows with Claude and related tools.",
-        "Partner closely with recruiting to attract and hire top engineering talent, building a high-performing team.",
-        "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and signed off by data science.",
-        "Cut a critical production job from up to 8 hours to 30 minutes, moving the team from chronically missed SLAs to consistently beating them.",
-        "Reduced an 11-hour job to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
-        "Introduced Agile sprints and serve as de facto product owner, building epics and features with the business while staying hands-on in code.",
-        "Became the go-to partner for actuaries and data scientists; coach peers and engineers outside the team to raise the engineering bar across lines of business."
+        "Established engineering standards within two weeks on an inherited team with no testing or delivery controls: CI/CD pipelines, code-quality gates, and production-release controls.",
+        "Hired four engineers directly and lead a team of five; onboarded and upskilled the team on AI-native development with Claude and related tools.",
+        "Cut a critical production job from up to 8 hours to 30 minutes, turning chronically missed SLAs into consistently met ones.",
+        "Reduced an 11-hour model run to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
+        "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and approved by data science.",
+        "Introduced Agile sprints and act as product owner, defining epics and features with the business while staying hands-on in code.",
+        "Serve as the trusted engineering partner to actuaries and data scientists, and coach engineers across lines of business to raise engineering standards."
       ]
     },
     {
@@ -81,13 +81,12 @@
       "start": "Aug 2024",
       "end": "Feb 2026",
       "bullets": [
-        "Led an MLOps team that doubled the number of models in production, clearing the entire pricing backlog until data science ran out of models to deploy.",
-        "Built turnkey deployment patterns and R2I integration, enabling model-to-production turnaround within 24 hours with the same team size, before AI tooling.",
-        "Championed Copilot and early AI tooling to boost team efficiency and grow engineers' technical depth.",
-        "Stepped up to lead four teams after my manager's departure, spanning data products, AI intake pipelines, and Gen AI applications.",
-        "Led the team that deployed Travelers' first Gen AI application to production for external brokers, not just internal users.",
-        "Delivered six Gen AI applications in 18 months across RAG and AI intake use cases.",
-        "Managed up to 11 ICs, including mid-year and year-end reviews, while staying a hands-on IC lead across all four teams."
+        "Led four teams spanning data products, AI intake pipelines, and Gen AI applications (up to 11 engineers), owning delivery, performance reviews, and technical direction after a leadership transition.",
+        "Doubled the number of ML models in production, clearing the full pricing backlog until data science had no models left to deploy.",
+        "Built reusable deployment patterns that cut model-to-production time to under 24 hours with no added headcount.",
+        "Delivered six Gen AI applications in 18 months across RAG and AI intake use cases, including the company's first Gen AI application released to external brokers.",
+        "Served on the hiring panel that selected 10–15 high-performing engineers.",
+        "Drove adoption of GitHub Copilot and early AI tooling, improving team efficiency and engineers' technical depth."
       ]
     },
     {
@@ -97,10 +96,9 @@
       "start": "Mar 2024",
       "end": "Aug 2024",
       "bullets": [
-        "Led development and deployment of real-time and batch machine-learning models within the MLOps ecosystem.",
-        "Lead developer on the company's first RAG application, built on GPT-3.5.",
-        "Partnered with business stakeholders to define technical priorities and mentored junior engineers.",
-        "Streamlined onboarding so new permanent and temporary hires became productive quickly."
+        "Led development and deployment of real-time and batch machine-learning models on the company's MLOps platform.",
+        "Served as lead developer on the company's first RAG application, built on GPT-3.5.",
+        "Partnered with business stakeholders to set technical priorities, mentored junior engineers, and streamlined new-hire onboarding."
       ]
     },
     {
@@ -110,9 +108,10 @@
       "start": "Oct 2022",
       "end": "Mar 2024",
       "bullets": [
-        "Built an automation tool that converts SQL Server DDLs to a new data storage solution.",
-        "Developed a Neo4j API and frontend to visualize database hierarchy and improve data visibility.",
-        "Created a testing framework and established Snowflake deployment standards across the line of business."
+        "Built a Python tool that automated conversion of SQL Server DDLs to a new data storage platform, eliminating manual migration work.",
+        "Developed a Neo4j-backed API and web frontend that visualizes database hierarchy and improves data visibility for engineering teams.",
+        "Created an automated testing framework and set Snowflake deployment standards across the line of business.",
+        "Stepped in as interim lead for two teams during a leadership transition."
       ]
     },
     {
@@ -122,9 +121,9 @@
       "start": "Jun 2021",
       "end": "Sep 2022",
       "bullets": [
-        "Designed and implemented multiple Python automation tools and frameworks.",
-        "Delivered incrementally within SAFe agile teams.",
-        "Developed procedures to extract and transform base-table data for downstream applications."
+        "Designed Python automation tools and frameworks that shortened development cycles and saved hundreds of engineering hours annually.",
+        "Built ETL procedures that extract and transform base-table data for downstream applications, enforcing database development standards.",
+        "Delivered incrementally in SAFe Agile teams."
       ]
     },
     {
@@ -134,10 +133,10 @@
       "start": "Jun 2018",
       "end": "Jun 2021",
       "bullets": [
-        "Built Python REST APIs retrieving data from Hadoop, Teradata, and Oracle.",
+        "Built Python REST APIs serving data from Hadoop, Teradata, and Oracle.",
         "Developed Angular applications and reusable components in Docker containers.",
-        "Delivered business-critical reports via Hadoop ELT and Tableau.",
-        "Used and debugged CI/CD pipelines to deploy Angular apps and Python APIs."
+        "Delivered business-critical reporting through Hadoop ELT and Tableau.",
+        "Deployed and troubleshot CI/CD pipelines for Angular apps and Python APIs."
       ]
     }
   ],
