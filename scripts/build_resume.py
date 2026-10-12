@@ -38,10 +38,10 @@ html = f'''<!DOCTYPE html>
 <link rel="canonical" href="https://omarsharaf.com/resume.html">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <style>
-@page {{ size: Letter; margin: 0.42in 0.55in; }}
+@page {{ size: Letter; margin: 0.4in 0.5in; }}
 :root {{ --ink:#111827; --muted:#4b5563; --accent:#1d4ed8; --rule:#d1d5db; }}
 * {{ box-sizing:border-box; }}
-body {{ margin:0; background:#f3f4f6; color:var(--ink); font:10.3pt/1.35 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }}
+body {{ margin:0; background:#f3f4f6; color:var(--ink); font:10.2pt/1.34 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }}
 .sheet {{ max-width:8.5in; margin:1rem auto; padding:0.5in 0.55in; background:#fff; }}
 header {{ border-bottom:2px solid var(--accent); padding-bottom:.5rem; margin-bottom:.6rem; }}
 h1 {{ font-size:22pt; margin:0; letter-spacing:.2px; }}
