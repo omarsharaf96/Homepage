@@ -35,7 +35,7 @@ html = f'''<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{e(d["name"])} — Resume | {e(d["headline"])}</title>
 <meta name="description" content="Resume of {e(d["name"])}, {e(d["headline"])}.">
-<link rel="canonical" href="https://omarsharaf.me/resume.html">
+<link rel="canonical" href="https://omarsharaf.com/resume.html">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <style>
 @page {{ size: Letter; margin: 0.42in 0.55in; }}
