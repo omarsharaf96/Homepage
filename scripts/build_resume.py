@@ -24,7 +24,7 @@ edu = "\n".join(f'''<div class="row"><span><strong>{e(x["degree"])}</strong>, {e
 certs = "\n".join(f'''<div class="row"><span><strong>{e(c["name"])}</strong>, {e(c["issuer"])}</span><span class="date">{e(c["date"])}</span></div>''' for c in d["certifications"])
 
 ld = {"@context": "https://schema.org", "@type": "Person", "name": d["name"], "jobTitle": d["headline"],
-      "email": "mailto:" + d["email"], "sameAs": [d["linkedin"]],
+      "email": "mailto:" + d["email"], "url": d["website"], "sameAs": [d["linkedin"]],
       "address": {"@type": "PostalAddress", "addressLocality": "Hartford", "addressRegion": "CT", "addressCountry": "US"},
       "worksFor": {"@type": "Organization", "name": d["experience"][0]["company"]}}
 
@@ -67,7 +67,7 @@ li {{ margin:.1rem 0; }}
 <header>
   <h1>{e(d["name"])}</h1>
   <div class="headline">{e(d["headline"])}</div>
-  <div class="contact">{e(d["location"])} · {e(d["availability"])} · <a href="mailto:{e(d["email"])}">{e(d["email"])}</a> · <a href="{e(d["linkedin"])}">{e(d["linkedin"].replace("https://www.", ""))}</a></div>
+  <div class="contact">{e(d["location"])} · {e(d["availability"])} · <a href="mailto:{e(d["email"])}">{e(d["email"])}</a> · <a href="{e(d["linkedin"])}">{e(d["linkedin"].replace("https://www.", ""))}</a> · <a href="{e(d["website"])}">{e(d["website"].replace("https://", ""))}</a></div>
 </header>
 <section><h2>Summary</h2><p>{e(d["summary"])}</p></section>
 <section><h2>Core Skills</h2><ul class="skills">
