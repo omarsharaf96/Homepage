@@ -66,6 +66,7 @@
       "bullets": [
         "Inherited a team with no testing, weak code hygiene, and no delivery standards; within two weeks established hardened CI/CD pipelines, code-quality gates, and production-release controls.",
         "Manage a team of five; onboarded and upskilled four engineers, embedding AI-native workflows with Claude and related tools.",
+        "Partner closely with recruiting to attract and hire top engineering talent, building a high-performing team.",
         "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and signed off by data science.",
         "Cut a critical production job from up to 8 hours to 30 minutes, moving the team from chronically missed SLAs to consistently beating them.",
         "Reduced an 11-hour job to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
