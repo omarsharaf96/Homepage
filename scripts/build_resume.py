@@ -38,7 +38,7 @@ html = f'''<!DOCTYPE html>
 <link rel="canonical" href="https://omarsharaf.me/resume.html">
 <script type="application/ld+json">{json.dumps(ld)}</script>
 <style>
-@page {{ size: Letter; margin: 0.5in 0.55in; }}
+@page {{ size: Letter; margin: 0.42in 0.55in; }}
 :root {{ --ink:#111827; --muted:#4b5563; --accent:#1d4ed8; --rule:#d1d5db; }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; background:#f3f4f6; color:var(--ink); font:10.3pt/1.35 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }}
