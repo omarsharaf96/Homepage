@@ -6,39 +6,95 @@
   "email": "omarsharaf96@gmail.com",
   "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
   "website": "https://omarsharaf.me",
-  "summary": "Director of Data Engineering with 7+ years in data engineering and AI/ML at Fortune 100 companies. Leads four engineering teams (8 direct reports, 10 offshore engineers) that ship production Generative AI (RAG) and machine-learning systems, and doubled ML model deployments in one year through reusable MLOps architecture. AWS certified; completing an M.S. in Data Science.",
+  "summary": "Director of Data Engineering with 7+ years in data engineering and AI/ML at Fortune 100 companies. Led four engineering teams that delivered six Gen AI applications in 18 months, including Travelers' first Gen AI application for external brokers, and doubled the number of ML models in production. Cuts production job runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; completing an M.S. in Data Science.",
   "skills": [
-    {"label": "Leadership", "items": ["Engineering Management", "Team Building & Mentorship", "Stakeholder Partnership", "SAFe Agile", "Offshore Team Management"]},
-    {"label": "AI/ML", "items": ["Generative AI", "RAG", "GPT", "MLOps", "Real-time & Batch Models"]},
-    {"label": "Cloud & Data", "items": ["AWS", "Databricks", "Snowflake", "Terraform", "Docker", "Neo4j", "MongoDB", "Teradata", "Hadoop"]},
-    {"label": "Languages & Tools", "items": ["Python", "SQL", "TypeScript", "JavaScript", "R", "CI/CD", "Tableau", "Angular"]}
+    {
+      "label": "Leadership",
+      "items": [
+        "Engineering Management",
+        "Team Building & Mentorship",
+        "Stakeholder Partnership",
+        "SAFe Agile",
+        "Offshore Team Management"
+      ]
+    },
+    {
+      "label": "AI/ML",
+      "items": [
+        "Generative AI",
+        "RAG",
+        "GPT",
+        "MLOps",
+        "Real-time & Batch Models"
+      ]
+    },
+    {
+      "label": "Cloud & Data",
+      "items": [
+        "AWS",
+        "Databricks",
+        "Snowflake",
+        "Terraform",
+        "Docker",
+        "Neo4j",
+        "MongoDB",
+        "Teradata",
+        "Hadoop"
+      ]
+    },
+    {
+      "label": "Languages & Tools",
+      "items": [
+        "Python",
+        "SQL",
+        "TypeScript",
+        "JavaScript",
+        "R",
+        "CI/CD",
+        "Tableau",
+        "Angular"
+      ]
+    }
   ],
   "experience": [
     {
       "title": "Director of Data Engineering — Pricing Model Support",
       "company": "The Travelers Companies",
       "location": "Hartford, CT (Hybrid)",
-      "start": "Feb 2026", "end": "Present",
-      "bullets": ["Lead data engineering in support of pricing models at a Fortune 100 insurer."]
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": [
+        "Inherited a team with no testing, weak code hygiene, and no delivery standards; within two weeks established hardened CI/CD pipelines, code-quality gates, and production-release controls.",
+        "Manage a team of five; onboarded and upskilled four engineers, embedding AI-native workflows with Claude and related tools.",
+        "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and signed off by data science.",
+        "Cut a critical production job from up to 8 hours to 30 minutes, moving the team from chronically missed SLAs to consistently beating them.",
+        "Reduced an 11-hour job to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
+        "Introduced Agile sprints and serve as de facto product owner, building epics and features with the business while staying hands-on in code.",
+        "Became the go-to partner for actuaries and data scientists; coach peers and engineers outside the team to raise the engineering bar across lines of business."
+      ]
     },
     {
       "title": "Technical Engineering Manager — Gen AI / MLOps",
       "company": "The Travelers Companies",
       "location": "Hartford, CT (Hybrid)",
-      "start": "Aug 2024", "end": "Feb 2026",
+      "start": "Aug 2024",
+      "end": "Feb 2026",
       "bullets": [
-        "Led four engineering teams (8 direct reports, 10 offshore engineers), aligning delivery with strategic objectives.",
-        "Doubled ML model deployments in one year through reusable architecture and deployment patterns.",
-        "Delivered 3 Generative AI projects into production and led 5+ proofs of concept across RAG and non-RAG use cases.",
-        "Championed CI/CD best practices, Python type hinting, and static typing to improve code quality and maintainability.",
-        "Upskilled a team member from no OOP experience to a top-performing contributor in six months."
+        "Led an MLOps team that doubled the number of models in production, clearing the entire pricing backlog until data science ran out of models to deploy.",
+        "Built turnkey deployment patterns and R2I integration, enabling model-to-production turnaround within 24 hours with the same team size, before AI tooling.",
+        "Championed Copilot and early AI tooling to boost team efficiency and grow engineers' technical depth.",
+        "Stepped up to lead four teams after my manager's departure, spanning data products, AI intake pipelines, and Gen AI applications.",
+        "Led the team that deployed Travelers' first Gen AI application to production for external brokers, not just internal users.",
+        "Delivered six Gen AI applications in 18 months across RAG and AI intake use cases.",
+        "Managed up to 11 ICs, including mid-year and year-end reviews, while staying a hands-on IC lead across all four teams."
       ]
     },
     {
       "title": "Cloud Data Engineer — Gen AI / MLOps",
       "company": "The Travelers Companies",
       "location": "Hartford, CT (Hybrid)",
-      "start": "Mar 2024", "end": "Aug 2024",
+      "start": "Mar 2024",
+      "end": "Aug 2024",
       "bullets": [
         "Led development and deployment of real-time and batch machine-learning models within the MLOps ecosystem.",
         "Lead developer on the company's first RAG application, built on GPT-3.5.",
@@ -50,7 +106,8 @@
       "title": "Data Engineer",
       "company": "The Travelers Companies",
       "location": "Hybrid, United States",
-      "start": "Oct 2022", "end": "Mar 2024",
+      "start": "Oct 2022",
+      "end": "Mar 2024",
       "bullets": [
         "Built an automation tool that converts SQL Server DDLs to a new data storage solution.",
         "Developed a Neo4j API and frontend to visualize database hierarchy and improve data visibility.",
@@ -62,7 +119,8 @@
       "title": "Data Engineer",
       "company": "The Cigna Group (CGI Inc consultant)",
       "location": "Bloomfield, CT",
-      "start": "Jun 2021", "end": "Sep 2022",
+      "start": "Jun 2021",
+      "end": "Sep 2022",
       "bullets": [
         "Designed and implemented multiple Python automation tools and frameworks.",
         "Delivered incrementally within SAFe agile teams.",
@@ -74,7 +132,8 @@
       "title": "Programmer Analyst",
       "company": "The Cigna Group (CGI Inc consultant)",
       "location": "Bloomfield, CT",
-      "start": "Jun 2018", "end": "Jun 2021",
+      "start": "Jun 2018",
+      "end": "Jun 2021",
       "bullets": [
         "Built Python REST APIs retrieving data from Hadoop, Teradata, and Oracle.",
         "Developed Angular applications and reusable components in Docker containers.",
@@ -84,10 +143,24 @@
     }
   ],
   "education": [
-    {"degree": "M.S., Data Science (in progress)", "school": "Central Connecticut State University", "start": "Jan 2022", "end": "Present"},
-    {"degree": "B.A., Economics", "school": "University of Connecticut", "start": "Aug 2014", "end": "Dec 2019"}
+    {
+      "degree": "M.S., Data Science (in progress)",
+      "school": "Central Connecticut State University",
+      "start": "Jan 2022",
+      "end": "Present"
+    },
+    {
+      "degree": "B.A., Economics",
+      "school": "University of Connecticut",
+      "start": "Aug 2014",
+      "end": "Dec 2019"
+    }
   ],
   "certifications": [
-    {"name": "AWS Certified Cloud Practitioner", "issuer": "Amazon Web Services", "date": "Apr 2021"}
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "Apr 2021"
+    }
   ]
 }
