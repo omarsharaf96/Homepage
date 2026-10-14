@@ -139,5 +139,11 @@ if (contactForm) {
 document.querySelectorAll('[data-years-since]').forEach(el => {
   const [y, m] = el.dataset.yearsSince.split('-').map(Number);
   const now = new Date();
-  el.textContent = now.getFullYear() - y - (now.getMonth() + 1 < m ? 1 : 0);
+  const years = now.getFullYear() - y - (now.getMonth() + 1 < m ? 1 : 0);
+  if (el.dataset.count !== undefined) {
+    el.dataset.count = years; // count-up stat: animation reads this when it runs
+    el.firstChild.textContent = years;
+  } else {
+    el.textContent = years;
+  }
 });
