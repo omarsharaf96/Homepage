@@ -773,20 +773,11 @@ section.alt { background: var(--surface); }
 }
 
 /* Skills */
-.skill-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.85rem; }
-.skill-label { font-family: var(--M); font-size: 0.6875rem; color: var(--text-secondary); white-space: nowrap; }
-.skill-track { flex: 1; height: 4px; background: var(--surface); border-radius: 2px; position: relative; overflow: hidden; }
-.skill-fill {
-  position: absolute;
-  top: 0; left: 0;
-  height: 100%;
-  background: linear-gradient(90deg, var(--brand), var(--brand-hover));
-  border-radius: 2px;
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: fillBar 1.2s ease forwards;
-}
-@keyframes fillBar { to { transform: scaleX(1); } }
+.skill-list { margin: 0; border-top: 1px solid var(--border); }
+.skill-line { display: grid; grid-template-columns: 11rem 1fr; gap: 1.5rem; padding: 1rem 0; border-bottom: 1px solid var(--border); }
+.skill-line dt { font-family: var(--M); font-size: 0.75rem; font-weight: 500; color: var(--text); letter-spacing: 0.04em; }
+.skill-line dd { margin: 0; font-size: 0.9375rem; line-height: 1.6; color: var(--text-secondary); }
+@media (max-width: 640px) { .skill-line { grid-template-columns: 1fr; gap: 0.25rem; } }
 
 /* Cert grid */
 .cert-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
