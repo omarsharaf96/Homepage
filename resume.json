@@ -6,7 +6,7 @@
   "email": "omarsharaf96@gmail.com",
   "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
   "website": "https://omarsharaf.com",
-  "summary": "Director of Pricing Model Engineering and MLOps with {years}+ years at Fortune 100 insurance and healthcare companies. Takes actuarial and data science models into governed, production-grade deployment, and leads the high-performing engineering teams behind them: doubled the number of models in production and delivered six Generative AI applications in 18 months. Cuts critical production runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; M.S. in Data Science in progress.",
+  "summary": "Director of Pricing Model Engineering and MLOps with {years}+ years at Fortune 100 insurance and healthcare companies. Takes actuarial and data science models into governed, production-grade deployment, and leads the high-performing engineering teams behind them: doubled the number of models in production and delivered four Generative AI applications in production in 18 months. Cuts critical production runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; M.S. in Data Science in progress.",
   "skills": [
     {
       "label": "Leadership",
@@ -84,7 +84,7 @@
         "Led four teams spanning data products, AI intake pipelines, and Gen AI applications (up to 11 engineers), owning delivery, performance reviews, and technical direction after a leadership transition.",
         "Doubled the number of ML models in production, clearing the full pricing backlog until data science had no models left to deploy.",
         "Built reusable deployment patterns that cut model-to-production time to under 24 hours with no added headcount.",
-        "Delivered six Gen AI applications in 18 months across RAG and AI intake use cases, including the company's first Gen AI application released to external brokers.",
+        "Delivered four Gen AI applications to production in 18 months across RAG and AI intake use cases, including the company's first Gen AI application released to external brokers.",
         "Served on the hiring panel that selected 10–15 high-performing engineers.",
         "Drove adoption of GitHub Copilot and early AI tooling, improving team efficiency and engineers' technical depth."
       ]
