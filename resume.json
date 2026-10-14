@@ -81,7 +81,7 @@
       "start": "Aug 2024",
       "end": "Feb 2026",
       "bullets": [
-        "Led four teams spanning data products, AI intake pipelines, and Gen AI applications (up to 11 engineers), owning delivery, performance reviews, and technical direction after a leadership transition.",
+        "Led four teams spanning data products, AI intake pipelines, and Gen AI applications: 11 direct reports, 3 borrowed engineers embedded on the team, and about 8 offshore developers reporting into those teams. Owned delivery, performance reviews, and technical direction after a leadership transition.",
         "Doubled the number of ML models in production, clearing the full pricing backlog until data science had no models left to deploy.",
         "Built reusable deployment patterns that cut model-to-production time to under 24 hours with no added headcount.",
         "Delivered four Gen AI applications to production in 18 months across RAG and AI intake use cases, including the company's first Gen AI application released to external brokers.",
