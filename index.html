@@ -25,7 +25,7 @@
 
 <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
 <nav id="site-nav">
-  <a href="index.html" class="nav-logo">
+  <a href="#home" class="nav-logo">
     <span class="nav-logo-mark">OS</span>
     <span class="nav-logo-text">Omar Sharaf</span>
   </a>
@@ -35,17 +35,19 @@
       <span class="nav-drawer-brand">Omar Sharaf</span>
     </div>
     <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-drawer-footer">
-      <a href="contact.html" class="btn btn-dark nav-drawer-cta">Get in Touch</a>
+      <a href="#contact" class="btn btn-dark nav-drawer-cta">Get in Touch</a>
       <span class="nav-drawer-status">Open to leadership &amp; technology roles</span>
     </div>
   </div>
   <div class="nav-actions">
-    <a href="contact.html" class="nav-cta">Get in Touch</a>
+    <a href="#contact" class="nav-cta">Get in Touch</a>
     <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
       <span></span><span></span><span></span>
     </button>
@@ -55,7 +57,7 @@
 <main id="main-content">
 <div class="page">
 
-  <section class="hero">
+  <section class="hero" id="home">
     <svg class="hero-mesh" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <defs>
         <radialGradient id="meshA" cx="80%" cy="10%" r="55%">
@@ -105,7 +107,7 @@
       </p>
       <div class="hero-actions">
         <a href="assets/Omar-Sharaf-Resume.pdf" class="btn btn-dark" download>Download Resume</a>
-        <a href="experience.html" class="btn btn-outline">View Experience</a>
+        <a href="#experience" class="btn btn-outline">View Experience</a>
       </div>
       <p class="hero-contact">
         <a href="mailto:omarsharaf96@gmail.com">omarsharaf96@gmail.com</a>
@@ -247,6 +249,254 @@
     </div>
   </section>
 
+  <!-- EXPERIENCE -->
+  <section class="alt" id="experience">
+    <div class="sec-head reveal"><span class="sec-tag">Experience</span><div class="sec-line"></div></div>
+    <h2 class="sec-title reveal">Where I've <span class="pop">Led</span></h2>
+    <div class="timeline">
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Feb 2026 — Present</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/travelers.svg" alt="Travelers">
+            <div class="tl-role" style="margin:0;">Director of Data Engineering — Pricing Model Support</div>
+          </div>
+          <div class="tl-co">The Travelers Companies · Full-time · Hybrid · Hartford, CT</div>
+          <p class="tl-desc">Leading data engineering in support of pricing models at a Fortune 100 insurer, building a strong technical team with the standards, tooling, and skills to run models in production.</p>
+          <ul class="tl-bullets">
+            <li>Serve as the trusted engineering partner to actuaries and data scientists, and coach engineers across lines of business to raise engineering standards.</li>
+            <li>Established governed, production-grade delivery within two weeks on an inherited team with no testing or release controls: CI/CD pipelines, code-quality gates, and production-release controls.</li>
+            <li>Hired four engineers directly and lead a team of five; onboarded and upskilled the team on AI-native development with Claude and related tools.</li>
+            <li>Cut a critical production job from up to 8 hours to 30 minutes, turning chronically missed SLAs into consistently met ones.</li>
+            <li>Reduced an 11-hour model run to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.</li>
+            <li>Converted a data scientist&#x27;s prototype into production-grade code in under 24 hours using Claude Code, validated and approved by data science.</li>
+            <li>Introduced Agile sprints and act as product owner, defining epics and features with the business while staying hands-on in code.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Aug 2024 — Feb 2026</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/travelers.svg" alt="Travelers">
+            <div class="tl-role" style="margin:0;">Technical Engineering Manager — Gen AI / MLOps</div>
+          </div>
+          <div class="tl-co">The Travelers Companies · Full-time · Hybrid · Hartford, CT</div>
+          <p class="tl-desc">Led four engineering teams (11 direct reports, 3 borrowed engineers, and about 8 offshore developers) delivering Generative AI and machine-learning capabilities at a Fortune 100 insurer.</p>
+          <ul class="tl-bullets">
+            <li>Led four teams spanning data products, AI intake pipelines, and Gen AI applications, owning delivery, performance reviews, and technical direction after a leadership transition.</li>
+            <li>Doubled the number of ML models in production, clearing the full pricing backlog until data science had no models left to deploy.</li>
+            <li>Built reusable deployment patterns that cut model-to-production time to under 24 hours with no added headcount.</li>
+            <li>Delivered four Gen AI applications to production in 18 months across RAG and AI intake use cases, including the company&#x27;s first Gen AI application released to external brokers.</li>
+            <li>Served on the hiring panel that selected 10–15 high-performing engineers.</li>
+            <li>Drove adoption of GitHub Copilot and early AI tooling, improving team efficiency and engineers&#x27; technical depth.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Mar 2024 — Aug 2024</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/travelers.svg" alt="Travelers">
+            <div class="tl-role" style="margin:0;">Cloud Data Engineer — Gen AI / MLOps</div>
+          </div>
+          <div class="tl-co">The Travelers Companies · Full-time · Hybrid · Hartford, CT</div>
+          <ul class="tl-bullets">
+            <li>Led development and deployment of real-time and batch machine-learning models on the company&#x27;s MLOps platform, ensuring scalability and reliability.</li>
+            <li>Orchestrated production deployments of models using Terraform and Airflow, keeping releases stable across environments.</li>
+            <li>Designed and implemented monitoring for deployed ML models to detect and resolve issues proactively.</li>
+            <li>Served as lead developer on the company&#x27;s first RAG application, built on GPT-3.5.</li>
+            <li>Partnered with business stakeholders to set technical priorities and translate business requirements into technical roadmaps.</li>
+            <li>Mentored junior engineers on MLOps practices, Python development, and cloud architecture, and streamlined onboarding for permanent and contract hires.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Oct 2022 — Mar 2024</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/travelers.svg" alt="Travelers">
+            <div class="tl-role" style="margin:0;">Data Engineer</div>
+          </div>
+          <div class="tl-co">The Travelers Companies · Full-time · Hybrid · Hartford, CT</div>
+          <ul class="tl-bullets">
+            <li>Built a Python tool that converts SQL Server table DDLs into the SQL of any target platform (Snowflake, Databricks, and others) and detects schema changes in SQL Server, applying them to the target automatically, so data could live in both places and stay in sync without manual migration work.</li>
+            <li>Developed a Neo4j-backed API and web frontend that visualizes database hierarchy and improves data visibility for engineering teams.</li>
+            <li>Created an automated testing framework and set Snowflake deployment standards across the line of business.</li>
+            <li>Stepped in as interim lead for two teams during a leadership transition.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Jun 2021 — Sep 2022</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/cigna.svg" alt="Cigna">
+            <div class="tl-role" style="margin:0;">Data Engineer</div>
+          </div>
+          <div class="tl-co">The Cigna Group (CGI Inc Consultant) · Bloomfield, CT</div>
+          <ul class="tl-bullets">
+            <li>Designed Python automation tools and frameworks that shortened development cycles and saved hundreds of engineering hours annually.</li>
+            <li>Built ETL procedures that extract and transform base-table data for downstream applications, enforcing database development standards.</li>
+            <li>Developer on a system-migration project, integrating a new upstream data feed into the warehouse: used Airflow to automate moving on-prem data, joining it with cloud data, and loading it into Teradata Vantage, so downstream customers kept receiving data in the exact same formats with no visible change.</li>
+            <li>Delivered incrementally in SAFe Agile teams.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-period">Jun 2018 — Jun 2021</div>
+        <div class="tl-body">
+          <div class="tl-role-row">
+            <img class="tl-logo" src="assets/logos/cigna.svg" alt="Cigna">
+            <div class="tl-role" style="margin:0;">Programmer Analyst</div>
+          </div>
+          <div class="tl-co">The Cigna Group (CGI Inc Consultant) · Bloomfield, CT</div>
+          <ul class="tl-bullets">
+            <li>Built Python REST APIs serving data from Hadoop, Teradata, and Oracle, and delivered business-critical reporting through Hadoop ELT and Tableau.</li>
+            <li>Developed Angular applications in Docker containers and maintained their CI/CD pipelines.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sec-head reveal"><span class="sec-tag">Skills</span><div class="sec-line"></div></div>
+    <h2 class="sec-title reveal">Core <span class="pop">Competencies</span></h2>
+    <dl class="skill-list reveal">
+      <div class="skill-line"><dt>Leadership</dt><dd>Engineering Management, Hiring &amp; Team Building, Mentorship &amp; Coaching, Agile / SAFe, Product Ownership, Stakeholder Partnership</dd></div>
+      <div class="skill-line"><dt>AI/ML</dt><dd>Generative AI, RAG, LLM Applications, MLOps, Real-time &amp; Batch Model Deployment</dd></div>
+      <div class="skill-line"><dt>Cloud &amp; Data</dt><dd>AWS, Databricks, Snowflake, Terraform, Docker</dd></div>
+    </dl>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="alt">
+    <div class="sec-head reveal"><span class="sec-tag">Tech Stack</span><div class="sec-line"></div></div>
+    <h2 class="sec-title reveal">Tools &amp; <span class="pop">Technologies</span></h2>
+    <div class="tech-stack-grid reveal">
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/python.svg" alt="" loading="lazy"><span>Python</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/sql.svg" alt="" loading="lazy"><span>SQL</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/typescript.svg" alt="" loading="lazy"><span>TypeScript</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/r.svg" alt="" loading="lazy"><span>R</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/javascript.svg" alt="" loading="lazy"><span>JavaScript</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/aws.svg" alt="" loading="lazy"><span>AWS</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/terraform.svg" alt="" loading="lazy"><span>Terraform</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/docker.svg" alt="" loading="lazy"><span>Docker</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/databricks.svg" alt="" loading="lazy"><span>Databricks</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/snowflake.svg" alt="" loading="lazy"><span>Snowflake</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/mongodb.svg" alt="" loading="lazy"><span>MongoDB</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/neo4j.svg" alt="" loading="lazy"><span>Neo4j</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/tableau.png" alt="" loading="lazy"><span>Tableau</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/teradata.svg" alt="" loading="lazy"><span>Teradata</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/apachehadoop.svg" alt="" loading="lazy"><span>Hadoop</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/apacheairflow.svg" alt="" loading="lazy"><span>Airflow</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/openai.svg" alt="" loading="lazy"><span>OpenAI</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/claude.svg" alt="" loading="lazy"><span>Claude</span></div>
+      <div class="tech-stack-item"><img class="tech-logo" src="assets/logos/github.svg" alt="" loading="lazy"><span>GitHub</span></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="sec-head reveal"><span class="sec-tag">Education</span><div class="sec-line"></div></div>
+    <h2 class="sec-title reveal">Academic <span class="pop">Background</span></h2>
+    <div class="grid-3 reveal">
+      <div class="cell alt-bg">
+        <div class="edu-header">
+          <img class="edu-logo" src="assets/logos/ccsu.svg" alt="Central Connecticut State University">
+          <div class="edu-badge">// M.S. · In Progress</div>
+        </div>
+        <div class="edu-title">Central Connecticut State University</div>
+        <div class="edu-degree">M.S. in Data Science</div>
+        <div class="edu-date">Jan 2022 — Present</div>
+      </div>
+      <div class="cell alt-bg">
+        <div class="edu-header">
+          <img class="edu-logo" src="assets/logos/uconn.svg" alt="University of Connecticut">
+          <div class="edu-badge">// B.A. · Completed</div>
+        </div>
+        <div class="edu-title">University of Connecticut</div>
+        <div class="edu-degree">B.A. in Economics</div>
+        <div class="edu-date">Aug 2014 — Dec 2019</div>
+      </div>
+      <div class="cell alt-bg">
+        <div class="edu-header">
+          <img class="edu-logo" src="assets/logos/aws.svg" alt="Amazon Web Services">
+          <div class="edu-badge">// Certified</div>
+        </div>
+        <div class="edu-title">AWS Certified Cloud Practitioner</div>
+        <div class="edu-degree">Amazon Web Services (AWS)</div>
+        <div class="edu-date">Issued Apr 2021</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="alt" id="contact">
+    <div class="sec-head reveal"><span class="sec-tag">Contact</span><div class="sec-line"></div></div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <h2 class="contact-headline">
+          Let's Build<br>
+          <span class="accent">Something</span><br>
+          Together.
+        </h2>
+        <p class="contact-intro">
+          Open to relocation/commuter arrangements for leadership roles, technology partnerships, and conversations about data engineering, AI/ML, and Generative AI. Based in Hartford, CT.
+        </p>
+
+        <div class="clink-list">
+          <a href="mailto:omarsharaf96@gmail.com" class="clink">
+            <div class="clink-left"><span class="clink-lbl">Email</span><span class="clink-val">omarsharaf96@gmail.com</span></div>
+            <span class="clink-arr">→</span>
+          </a>
+          <a href="https://www.linkedin.com/in/omarsharaf96/" target="_blank" rel="noopener" class="clink">
+            <div class="clink-left"><span class="clink-lbl">LinkedIn</span><span class="clink-val">linkedin.com/in/omarsharaf96</span></div>
+            <span class="clink-arr">→</span>
+          </a>
+          <a href="assets/Omar-Sharaf-Resume.pdf" class="clink" download>
+            <div class="clink-left"><span class="clink-lbl">Resume</span><span class="clink-val">Download PDF</span></div>
+            <span class="clink-arr">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label class="form-label" for="fname">Name</label>
+              <input id="fname" type="text" name="name" class="form-input" placeholder="Your name" required>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="femail">Email</label>
+              <input id="femail" type="email" name="email" class="form-input" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="fsubject">Subject</label>
+            <input id="fsubject" type="text" name="subject" class="form-input" placeholder="What's this about?" required>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" class="form-textarea" rows="6" placeholder="Tell me about your opportunity, project, or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn">Send Message →</button>
+          <div class="form-hint">Opens your email client to send the message.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
 </div>
 </main>
 
@@ -256,7 +506,7 @@
     <a href="https://www.linkedin.com/in/omarsharaf96/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="mailto:omarsharaf96@gmail.com">Email</a>
     <a href="assets/Omar-Sharaf-Resume.pdf" download>Resume</a>
-    <a href="contact.html">Contact</a>
+    <a href="#contact">Contact</a>
   </div>
 </footer>
 <script src="app.js"></script>

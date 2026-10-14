@@ -293,37 +293,8 @@ body {
 .container { width: var(--container); margin-inline: auto; }
 
 section { padding: clamp(3.5rem, 8vw, 6rem) clamp(1.25rem, 4vw, 3rem); }
+section[id] { scroll-margin-top: var(--nav-h); }
 section.alt { background: var(--surface); }
-
-/* Page hero (inner pages) */
-.page-hero {
-  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.25rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
-  border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg) 100%);
-}
-.page-hero .eyebrow {
-  font-family: var(--M);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  color: var(--brand);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-.page-hero h1 {
-  font-size: clamp(2rem, 4.5vw, 3.25rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-}
-.page-hero h1 .accent { color: var(--brand); }
-.page-hero-desc {
-  font-size: 1.0625rem;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  max-width: 36rem;
-  margin-top: 1rem;
-}
 
 /* Section headers */
 .sec-head { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1rem; }
@@ -752,19 +723,6 @@ section.alt { background: var(--surface); }
 .contact-headline { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.25rem; }
 .contact-headline .accent { color: var(--brand); }
 .contact-intro { font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem; }
-.profile-photo-wrap {
-  max-width: 200px;
-  aspect-ratio: 1;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.profile-photo-wrap .fallback-mark { font-family: var(--M); font-size: 2.5rem; font-weight: 500; color: var(--text-muted); }
 
 .clink-list { border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm); }
 .clink {
@@ -794,14 +752,6 @@ section.alt { background: var(--surface); }
 .clink-arr { font-size: 0.875rem; color: var(--brand); transition: transform 0.2s; }
 .clink:hover .clink-arr { transform: translateX(4px); }
 
-.label-upper {
-  font-family: var(--M);
-  font-size: 0.625rem;
-  color: var(--text-muted);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
 
 /* Form */
 .form-field { display: flex; flex-direction: column; gap: 0.4rem; }

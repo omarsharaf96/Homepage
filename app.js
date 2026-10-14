@@ -46,12 +46,56 @@ const obs = new IntersectionObserver(entries => {
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 
-// Active nav link
-const page = location.pathname.split('/').pop() || 'index.html';
-document.querySelectorAll('.nav-links a').forEach(a => {
-  const href = a.getAttribute('href');
-  if (href === page || (page === '' && href === 'index.html')) a.classList.add('active');
-});
+// Active nav tab follows the section in view. Sections without a tab (logo strip,
+// tech stack) keep the previous tab lit; the last tab wins at the bottom of the page.
+const tabLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+const tabSections = tabLinks.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+
+function setActiveTab(id) {
+  tabLinks.forEach(a => {
+    const on = a.getAttribute('href') === '#' + id;
+    a.classList.toggle('active', on);
+    if (on) a.setAttribute('aria-current', 'location');
+    else a.removeAttribute('aria-current');
+  });
+}
+
+if (tabSections.length) {
+  const navH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--nav-h')) || 72;
+  const spy = () => {
+    const line = navH + window.innerHeight * 0.3;
+    let current = tabSections[0].id;
+    tabSections.forEach(s => { if (s.getBoundingClientRect().top <= line) current = s.id; });
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+      current = tabSections[tabSections.length - 1].id;
+    }
+    setActiveTab(current);
+  };
+
+  // After a tab click, keep that tab lit until the smooth scroll settles,
+  // instead of flickering through every section on the way.
+  let clickLock = false;
+  let lockTimer;
+  const releaseLockSoon = () => {
+    clearTimeout(lockTimer);
+    lockTimer = setTimeout(() => { clickLock = false; }, 150);
+  };
+  tabLinks.forEach(a => a.addEventListener('click', () => {
+    setActiveTab(a.getAttribute('href').slice(1));
+    clickLock = true;
+    releaseLockSoon();
+  }));
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (clickLock) { releaseLockSoon(); return; }
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { ticking = false; spy(); });
+  }, { passive: true });
+  window.addEventListener('load', spy);
+  spy();
+}
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(pointer: fine)').matches;
