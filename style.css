@@ -213,10 +213,11 @@ body {
     display: flex;
     flex-direction: column;
     transform: translateX(100%);
-    transition: transform 0.38s var(--ease);
+    visibility: hidden; /* closed: no shadow bleed at the edge, links out of tab order and the a11y tree */
+    transition: transform 0.38s var(--ease), visibility 0s linear 0.38s;
     overflow: hidden;
   }
-  .nav-drawer.open { transform: translateX(0); }
+  .nav-drawer.open { transform: translateX(0); visibility: visible; transition: transform 0.38s var(--ease); }
 
   .nav-drawer-header {
     display: flex;
@@ -745,7 +746,6 @@ section.alt { background: var(--surface); }
 .edu-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.35rem; }
 .edu-degree { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.35rem; line-height: 1.5; }
 .edu-date { font-family: var(--M); font-size: 0.6875rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-.edu-skills { font-family: var(--M); font-size: 0.625rem; color: var(--text-muted); }
 
 /* Contact */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }

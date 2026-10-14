@@ -8,7 +8,6 @@ const siteNav = document.getElementById('site-nav');
 function setNavOpen(open) {
   if (!navDrawer || !navToggle) return;
   navDrawer.classList.toggle('open', open);
-  navDrawer.setAttribute('aria-hidden', open ? 'false' : 'true');
   navToggle.setAttribute('aria-expanded', open);
   navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   if (navBackdrop) {
