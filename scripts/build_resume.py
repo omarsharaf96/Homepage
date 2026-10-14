@@ -4,7 +4,7 @@
 Usage: python3 scripts/build_resume.py [--no-pdf]
 PDF export uses headless Chromium (CHROME env var overrides the binary path).
 """
-import json, os, shutil, subprocess, sys
+import datetime, json, os, shutil, subprocess, sys
 from html import escape as e
 from pathlib import Path
 
@@ -69,7 +69,7 @@ li {{ margin:.1rem 0; }}
   <div class="headline">{e(d["headline"])}</div>
   <div class="contact">{e(d["location"])} · {e(d["availability"])} · <a href="mailto:{e(d["email"])}">{e(d["email"])}</a> · <a href="{e(d["linkedin"])}">{e(d["linkedin"].replace("https://www.", ""))}</a> · <a href="{e(d["website"])}">{e(d["website"].replace("https://", ""))}</a></div>
 </header>
-<section><h2>Summary</h2><p>{e(d["summary"])}</p></section>
+<section><h2>Summary</h2><p>{e(d["summary"].replace("{years}", str(datetime.date.today().year - 2018)))}</p></section>
 <section><h2>Core Skills</h2><ul class="skills">
 {skills}
 </ul></section>

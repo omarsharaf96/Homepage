@@ -134,3 +134,8 @@ if (contactForm) {
     window.location.href = mailto;
   });
 }
+
+// Keep "N+ years" copy current: years since the start year in data-years-since.
+document.querySelectorAll('[data-years-since]').forEach(el => {
+  el.textContent = new Date().getFullYear() - Number(el.dataset.yearsSince);
+});
