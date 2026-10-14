@@ -847,6 +847,7 @@ section.alt { background: var(--surface); }
   font-weight: 500;
   color: #fff;
 }
+.tech-logo { height: 34px; width: auto; max-width: 88px; object-fit: contain; display: block; }
 .tech-stack-item span { font-family: var(--M); font-size: 0.625rem; color: var(--text-muted); }
 
 /* Education card */
