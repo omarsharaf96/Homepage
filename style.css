@@ -822,7 +822,7 @@ section.alt { background: var(--surface); }
 .cert-date { font-family: var(--M); font-size: 0.625rem; color: var(--brand); font-weight: 500; }
 
 /* Tech stack grid */
-.tech-stack-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.tech-stack-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 0.75rem; }
 .tech-stack-item {
   background: var(--bg-elevated);
   padding: 1.25rem 1.5rem;
@@ -830,8 +830,8 @@ section.alt { background: var(--surface); }
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  min-width: 90px;
-  flex: 1;
+  min-height: 96px;
+  justify-content: center;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   transition: box-shadow 0.2s, border-color 0.2s;
