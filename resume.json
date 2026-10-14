@@ -66,7 +66,7 @@
       "start": "Feb 2026",
       "end": "Present",
       "bullets": [
-        "Serve as the trusted engineering partner to actuaries and data scientists, and coach engineers across lines of business to raise engineering standards.",
+        "Partner with key stakeholders, data scientists, and actuaries to build the roadmap for model deployments, serving as their trusted engineering partner and coaching engineers across lines of business to raise engineering standards.",
         "Established governed, production-grade delivery within two weeks on an inherited team with no testing or release controls: CI/CD pipelines, code-quality gates, and production-release controls.",
         "Hired four engineers directly and lead a team of five; onboarded and upskilled the team on AI-native development with Claude and related tools.",
         "Cut a critical production job from up to 8 hours to 30 minutes, turning chronically missed SLAs into consistently met ones.",
