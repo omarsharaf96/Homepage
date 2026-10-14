@@ -100,26 +100,6 @@ if (photoFrame && finePointer && !reduceMotion) {
   });
 }
 
-// Tilt on project cards
-if (finePointer && !reduceMotion) {
-  document.querySelectorAll('[data-tilt]').forEach(card => {
-    const glare = card.querySelector('.card-glare');
-    card.addEventListener('mousemove', e => {
-      const r = card.getBoundingClientRect();
-      const x = (e.clientX - r.left) / r.width;
-      const y = (e.clientY - r.top) / r.height;
-      const rx = (0.5 - y) * 7;
-      const ry = (x - 0.5) * 7;
-      card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-3px)`;
-      if (glare) glare.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, rgba(255,255,255,0.7), transparent 42%)`;
-    });
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = '';
-      if (glare) glare.style.background = '';
-    });
-  });
-}
-
 // Contact form -> mailto fallback
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
