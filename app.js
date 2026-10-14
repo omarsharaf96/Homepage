@@ -135,7 +135,9 @@ if (contactForm) {
   });
 }
 
-// Keep "N+ years" copy current: years since the start year in data-years-since.
+// Keep "N+ years" copy current: whole years elapsed since the YYYY-MM in data-years-since.
 document.querySelectorAll('[data-years-since]').forEach(el => {
-  el.textContent = new Date().getFullYear() - Number(el.dataset.yearsSince);
+  const [y, m] = el.dataset.yearsSince.split('-').map(Number);
+  const now = new Date();
+  el.textContent = now.getFullYear() - y - (now.getMonth() + 1 < m ? 1 : 0);
 });
