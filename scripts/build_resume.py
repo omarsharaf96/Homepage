@@ -67,7 +67,7 @@ li {{ margin:.1rem 0; }}
 <header>
   <h1>{e(d["name"])}</h1>
   <div class="headline">{e(d["headline"])}</div>
-  <div class="contact">{e(d["location"])} · {e(d["availability"])} · <a href="mailto:{e(d["email"])}">{e(d["email"])}</a> · <a href="{e(d["linkedin"])}">{e(d["linkedin"].replace("https://www.", "").rstrip("/"))}</a> · <a href="{e(d["website"])}">{e(d["website"].replace("https://", ""))}</a></div>
+  <div class="contact">{e(d["location"])} · <a href="mailto:{e(d["email"])}">{e(d["email"])}</a> · <a href="{e(d["linkedin"])}">{e(d["linkedin"].replace("https://www.", "").rstrip("/"))}</a> · <a href="{e(d["website"])}">{e(d["website"].replace("https://", ""))}</a></div>
 </header>
 <section><h2>Summary</h2><p>{e(d["summary"].replace("{years}", str((lambda t: t.year - 2018 - (t.month < 6))(datetime.date.today()))))}</p></section>
 <section><h2>Core Skills</h2><ul class="skills">
