@@ -2,11 +2,11 @@
   "name": "Omar Sharaf",
   "headline": "Director, Pricing Model Engineering & MLOps",
   "location": "Hartford, CT",
-  "availability": "Open to remote roles (US)",
+  "availability": "Open to relocation/commuter arrangements",
   "email": "omarsharaf96@gmail.com",
   "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
   "website": "https://omarsharaf.com",
-  "summary": "Director of Pricing Model Engineering and MLOps with 7+ years at Fortune 100 insurance and healthcare companies. Takes actuarial and data science models into governed, production-grade deployment, and leads the high-performing engineering teams behind them: doubled the number of models in production and delivered six Generative AI applications in 18 months. Cuts critical production runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; M.S. in Data Science in progress.",
+  "summary": "Director of Pricing Model Engineering and MLOps with 8+ years at Fortune 100 insurance and healthcare companies. Takes actuarial and data science models into governed, production-grade deployment, and leads the high-performing engineering teams behind them: doubled the number of models in production and delivered six Generative AI applications in 18 months. Cuts critical production runtimes from hours to minutes and brings AI-native engineering practices to data teams. AWS certified; M.S. in Data Science in progress.",
   "skills": [
     {
       "label": "Leadership",
@@ -65,13 +65,13 @@
       "start": "Feb 2026",
       "end": "Present",
       "bullets": [
-        "Established engineering standards within two weeks on an inherited team with no testing or delivery controls: CI/CD pipelines, code-quality gates, and production-release controls.",
+        "Serve as the trusted engineering partner to actuaries and data scientists, and coach engineers across lines of business to raise engineering standards.",
+        "Established governed, production-grade delivery within two weeks on an inherited team with no testing or release controls: CI/CD pipelines, code-quality gates, and production-release controls.",
         "Hired four engineers directly and lead a team of five; onboarded and upskilled the team on AI-native development with Claude and related tools.",
         "Cut a critical production job from up to 8 hours to 30 minutes, turning chronically missed SLAs into consistently met ones.",
         "Reduced an 11-hour model run to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
         "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and approved by data science.",
-        "Introduced Agile sprints and act as product owner, defining epics and features with the business while staying hands-on in code.",
-        "Serve as the trusted engineering partner to actuaries and data scientists, and coach engineers across lines of business to raise engineering standards."
+        "Introduced Agile sprints and act as product owner, defining epics and features with the business while staying hands-on in code."
       ]
     },
     {
@@ -133,10 +133,8 @@
       "start": "Jun 2018",
       "end": "Jun 2021",
       "bullets": [
-        "Built Python REST APIs serving data from Hadoop, Teradata, and Oracle.",
-        "Developed Angular applications and reusable components in Docker containers.",
-        "Delivered business-critical reporting through Hadoop ELT and Tableau.",
-        "Deployed and troubleshot CI/CD pipelines for Angular apps and Python APIs."
+        "Built Python REST APIs serving data from Hadoop, Teradata, and Oracle, and delivered business-critical reporting through Hadoop ELT and Tableau.",
+        "Developed Angular applications in Docker containers and maintained their CI/CD pipelines."
       ]
     }
   ],
