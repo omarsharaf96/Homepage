@@ -14,6 +14,7 @@
         "Hiring & Team Building",
         "Mentorship & Coaching",
         "Agile / SAFe",
+        "Product Ownership",
         "Stakeholder Partnership"
       ]
     },
@@ -95,7 +96,7 @@
       "end": "Aug 2024",
       "bullets": [
         "Led development and deployment of real-time and batch machine-learning models on the company's MLOps platform, ensuring scalability and reliability.",
-        "Orchestrated production deployments of models using Terraform and Airflow, keeping releases stable across environments.",
+        "Orchestrated production deployments of models using Terraform, keeping releases stable across environments.",
         "Designed and implemented monitoring for deployed ML models to detect and resolve issues proactively.",
         "Served as lead developer on the company's first RAG application, built on GPT-3.5.",
         "Partnered with business stakeholders to set technical priorities and translate business requirements into technical roadmaps.",
