@@ -5,7 +5,7 @@
   "email": "omarsharaf96@gmail.com",
   "linkedin": "https://www.linkedin.com/in/omarsharaf96/",
   "website": "https://omarsharaf.com",
-  "summary": "Engineering leader with {years}+ years at Fortune 100 insurance and healthcare companies, specializing in taking actuarial and data science models into governed, production-grade deployment. Currently Director of Data Engineering for Pricing Model Support at Travelers, leading teams that doubled the number of models in production and delivered four Generative AI applications to production in 18 months.",
+  "summary": "Engineering leader with {years}+ years at Fortune 100 insurance and healthcare companies, specializing in taking actuarial and data science models into governed, production-grade deployment. Currently Director of Data Engineering for Pricing Model Support at Travelers. Previously, as Technical Engineering Manager for Gen AI/MLOps, led teams that doubled the number of models in production and delivered four Generative AI applications to production in 18 months.",
   "skills": [
     {
       "label": "Leadership",
@@ -14,7 +14,6 @@
         "Hiring & Team Building",
         "Mentorship & Coaching",
         "Agile / SAFe",
-        "Product Ownership",
         "Stakeholder Partnership"
       ]
     },
@@ -69,10 +68,8 @@
         "Established governed, production-grade delivery within two weeks on an inherited team with no testing or release controls: CI/CD pipelines, code-quality gates, and production-release controls.",
         "Hired four engineers directly and lead a team of five, mixing junior and senior engineers.",
     "Rolled out Claude Code workflows across the full delivery lifecycle (deployment, validation, and test generation) to speed up development for junior and senior engineers alike, with a human in the loop at every stage: engineers review and approve AI output, and data science signs off on validation.",
-        "Cut a critical production job from up to 8 hours to 30 minutes, turning chronically missed SLAs into consistently met ones.",
-        "Reduced an 11-hour model run to 1 hour 40 minutes, letting the business run models and make decisions during the workday instead of overnight.",
-        "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and approved by data science.",
-        "Introduced Agile sprints and act as product owner, defining epics and features with the business while staying hands-on in code."
+        "Cut runtimes on critical production workloads, taking a key job from up to 8 hours to 30 minutes and an 11-hour model run to 1 hour 40 minutes, turning chronically missed SLAs into consistently met ones and moving model decisions from overnight into the workday.",
+        "Converted a data scientist's prototype into production-grade code in under 24 hours using Claude Code, validated and approved by data science."
       ]
     },
     {
@@ -82,11 +79,11 @@
       "start": "Aug 2024",
       "end": "Feb 2026",
       "bullets": [
-        "Led four teams spanning data products, AI intake pipelines, and Gen AI applications: 11 direct reports, 3 borrowed engineers embedded on the team, and about 8 offshore developers reporting into those teams. Owned delivery, performance reviews, and technical direction after a leadership transition.",
+        "Led four teams spanning data products, AI intake pipelines, Gen AI applications, and MLOps: 11 direct reports, 3 borrowed engineers embedded on the team, and about 8 offshore developers reporting into those teams. Owned delivery, performance reviews, and technical direction.",
         "Doubled the number of ML models in production, clearing the full pricing backlog until data science had no models left to deploy.",
         "Built reusable deployment patterns that cut model-to-production time to under 24 hours with no added headcount.",
-        "Delivered four Gen AI applications to production in 18 months across RAG and AI intake use cases, including the company's first Gen AI application released to external brokers.",
-        "Served on the hiring panel that selected 10–15 high-performing engineers.",
+        "Delivered four Gen AI applications to production in 18 months across RAG and extraction use cases, including the company's first Gen AI application released to external brokers.",
+        "Served on the hiring panel that selected over 10 high-performing engineers.",
         "Drove adoption of GitHub Copilot and early AI tooling, improving team efficiency and engineers' technical depth."
       ]
     },
