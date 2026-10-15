@@ -25,7 +25,7 @@ certs = "\n".join(f'''<div class="row"><span><strong>{e(c["name"])}</strong>, {e
 
 ld = {"@context": "https://schema.org", "@type": "Person", "name": d["name"], "jobTitle": d["headline"],
       "email": "mailto:" + d["email"], "url": d["website"], "sameAs": [d["linkedin"]],
-      "address": {"@type": "PostalAddress", "addressLocality": "Hartford", "addressRegion": "CT", "addressCountry": "US"},
+      "address": {"@type": "PostalAddress", "addressLocality": "Suffield", "addressRegion": "CT", "addressCountry": "US"},
       "worksFor": {"@type": "Organization", "name": d["experience"][0]["company"]}}
 
 html = f'''<!DOCTYPE html>
